@@ -8,7 +8,7 @@ cellBtn.addEventListener("click", () => {
 
   let cellsPerSide = parseInt(userInput);
 
-  if (isNaN(cellsPerSide) || cellsPerSide < 1 || cellsPerSide > 64) {
+  if (isNaN(cellsPerSide) || cellsPerSide < 1 || cellsPerSide > 100) {
     alert("Please enter a valid number between 1 and 100.");
     return;
   } else {

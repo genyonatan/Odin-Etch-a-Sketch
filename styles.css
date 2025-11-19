@@ -18,7 +18,7 @@ body {
   /* grid-template-columns: repeat(4, 1fr); */
   /* grid-template-rows: repeat(4, 1fr); */
 
-  gap: 2px;
+  gap: 0px;
 
   width: 90%;
   min-height: 90vh;
@@ -35,10 +35,10 @@ body {
 
 .cell {
   aspect-ratio: 1 / 1;
-  border-radius: 5%;
+  border: none;
 
-  background-color: rgb(232, 46, 13);
-  box-shadow: 0 0 2px #ff0000;
+  background-color: white;
+  box-shadow: 0 0 2px #b8b4b4;
 }
 
 .cell:hover {
