@@ -4,7 +4,7 @@ const cellBtn = document.querySelector("#cellsModifyBtn"); // select button to m
 createGrid(4); // defualt grid of 4 cells per side
 
 cellBtn.addEventListener("click", () => {
-  let userInput = prompt("Enter number of cells per side (max 64):");
+  let userInput = prompt("Enter number of cells per side (max 100):");
 
   let cellsPerSide = parseInt(userInput);
 
