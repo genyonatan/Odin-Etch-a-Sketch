@@ -18,7 +18,7 @@ body {
   /* grid-template-columns: repeat(4, 1fr); */
   /* grid-template-rows: repeat(4, 1fr); */
 
-  gap: 10px;
+  gap: 2px;
 
   width: 90%;
   min-height: 90vh;
@@ -39,7 +39,6 @@ body {
 
   background-color: rgb(232, 46, 13);
   box-shadow: 0 0 2px #ff0000;
-  transition: 0.2s;
 }
 
 .cell:hover {

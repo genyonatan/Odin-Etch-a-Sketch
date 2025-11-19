@@ -26,6 +26,17 @@ function createGrid(cellsPerSide) {
   for (let i = 0; i < totalNewCells; i++) {
     const newCell = document.createElement("div");
     newCell.classList.add("cell");
+    newCell.addEventListener("mouseover", () => {
+      newCell.style.backgroundColor = randomColor();
+    });
     mainContainer.appendChild(newCell);
   }
+}
+
+function randomColor() {
+  const r = Math.floor(Math.random() * 256);
+  const g = Math.floor(Math.random() * 256);
+  const b = Math.floor(Math.random() * 256);
+
+  return `rgb(${r}, ${g}, ${b})`;
 }
