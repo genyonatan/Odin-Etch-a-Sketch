@@ -37,17 +37,17 @@ body {
   aspect-ratio: 1 / 1;
   border-radius: 5%;
 
-  background-color: blanchedalmond;
+  background-color: rgb(232, 46, 13);
   box-shadow: 0 0 2px #ff0000;
   transition: 0.2s;
 }
 
 .cell:hover {
-  background-color: rgb(255, 176, 176);
+  opacity: 0.5;
 }
 
 .cell:active {
-  background-color: rgb(243, 81, 79);
+  opacity: 0.2;
 }
 
 #cellsModifyBtn {
